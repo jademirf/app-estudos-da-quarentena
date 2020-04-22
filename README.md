@@ -4,7 +4,7 @@ Arquivos utilizados durante a trilha de estudos sobre Nodejs + Sequelize, em bre
 ## Detalhes
 A Aplicação que será criada tem como objetivo prover um ambiente virtual para compartilhar aprendizado entre estudantes (ou não) das mais diversas áreas do conhecimento que aproveitaram o tempo da quarentena para aprimorar seus conhecimentos.
 
-Os aquivos da documentação inicial disponíveis na pasta docs
+Os aquivos da documentação inicial disponíveis na [pasta docs](/docs)
 
 ## Tecnologias utilizadas
 ### API
