@@ -4,8 +4,7 @@ class PostController {
   async createPostComment(req, res, next) {
     try {
       const { postId } = req.params
-      if (!postId)
-        return res.status(400).send('please send router needed params')
+      if (!postId) return res.status(400).send('router needed any params')
       const post = await Post.findByPk(postId)
       const comentario = await post.createComentario(req.body)
       return res.json(comentario)
@@ -17,8 +16,7 @@ class PostController {
   async getPost(req, res, next) {
     try {
       const { postId } = req.params
-      if (!postId)
-        return res.status(400).send('please send router needed params')
+      if (!postId) return res.status(400).send('router needed any params')
       const post = await Post.findByPk(postId, {
         include: [{ model: Comentario }],
       })
