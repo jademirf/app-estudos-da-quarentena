@@ -19,7 +19,7 @@
       <q-separator />
 
       <q-card-actions>
-        <q-btn flat class="text-primary">ver mais</q-btn>
+        <q-btn flat class="text-primary" to="/post">ver mais</q-btn>
         <q-space />
         <q-btn flat color="grey-7" icon="chat_bubble_outline" />
         <q-btn flat color="grey-7" icon="save" />
